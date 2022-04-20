@@ -1,0 +1,9 @@
+.wrap{
+    background-color: #a23f25;
+}
+.mb-0{
+    position: relative;
+    display: inline-block;
+    background-color: yellow;
+    padding: 15px;
+}
