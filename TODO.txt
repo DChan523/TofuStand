@@ -1,0 +1,39 @@
+PROJECT SCOPE: "Tofu Stand" is an online shop where customers are able to purchase
+not just tofu but several other products under the MochiRSP banner. Users will need to
+set up an account to purchase goods and the "admin" will also require a login to be
+able to create/update/delete goods.  Verified users will also be able to leave reviews
+on products. Most likely only boostrap will be used for the design. Possibly a bootstrap
+theme. In an ideal world I would also get a cart system going which would store
+unpurchased goods to checkout later but idk.
+
+TODO:
+
+1. Homepage that displays the products
+    1.1 Products should have: - An image
+                              - Brief description
+                              - Price
+                              - *"Purchase/add to cart" button
+    1.2 An area for verified user to leave comments(maybe only enable button if logged in)
+
+2. "Checkout" area where users can purchase product
+    2.1 Users should be able to specify the quantity of the product they want when adding to cart
+    2.2 Users may have to fill out a form with their information(may not do if it's a hassle)
+
+3. Admin area to do basic CRUD operations on product(s)
+
+4. Login and verification thing
+
+5. Make it look cute
+
+TECH STUFF PLANNING BELOW:
+
+-Something about a database and stuff
+-Need a userController and a productController maybe another 1??
+-That one login verification thing we did
+-Foreign keys and some form of relationship
+-Should install composer sometime***
+-Remember how to set up the database *******
+-routes
+
+
+
