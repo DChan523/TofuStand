@@ -1,7 +1,11 @@
 @extends('master')
 
 @section('content')
-{{--    {{ HTML::image('images/banner.png') }}--}}
+    <div class="container">
+        <div class="row">
+            <div class="col">
 
-    <img src="{{  URL::asset('images/banner.png') }}" width="100%">
+            </div>
+        </div>
+    </div>
 @endsection

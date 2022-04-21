@@ -32,11 +32,17 @@
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item"><a href="{{url('store')}}" class="nav-link">Products</a></li>
                 <li class="nav-item"><a href="{{url('about')}}" class="nav-link">About Us</a></li>
-                <li class="nav-item"><a href="{{url('edit')}}" class="nav-link">Product Management</a></li>
+                <li class="nav-item"><a href="{{url('edit')}}" class="nav-link" id="admin">Product Management</a></li>
+                @if (Auth::check())
+                {
+                    <style> #admin {display: block}</style>
+                }
+                @endif
             </ul>
         </div>
     </div>
 </nav>
+<img src="{{  URL::asset('images/banner.png') }}" width="100%">
 @yield('content')
 <footer class="container-fluid text-center">
     @yield('footer')
