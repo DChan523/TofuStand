@@ -16,3 +16,24 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/store', function () {
+    return view('store');
+})->name("store");
+
+Route::get('/about', function () {
+    return view('about');
+})->name("about");
+
+Route::get('/edit', function () {
+    return view('ProdMan');
+})->name("ProdMan");
+
+//products routes and stuff
+Route::resource('/products','ProductController');
+
+
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
